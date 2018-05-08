@@ -1,6 +1,11 @@
+package Action;
+
+
+import Interface.QuackBehavior;
+
 public class Quack implements QuackBehavior {
     @Override
     public void quack() {
-        sysout
+        System.out.println("Quack");
     }
 }
